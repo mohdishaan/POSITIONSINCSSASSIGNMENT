@@ -1,0 +1,16 @@
+Task.2 Explain the difference between Absolute and Relative positioning.
+
+sol.
+
+Absolute Positioning:
+1.When an element is set to absolute positioning, it is positioned relative to its closest positioned ancestor element. If there is no positioned ancestor, it is positioned relative to the initial containing block, usually the viewport.
+2.Absolute positioning takes an element out of the normal flow of the document, meaning it doesn't affect the position of other elements.
+3.The position of an element with absolute positioning is specified using the top, bottom, left, and right properties.
+4.It is often used for elements that need to be precisely placed within a specific container or layout.
+
+
+Relative Positioning:
+1.When an element is set to relative positioning, it is positioned relative to its normal position in the document flow.
+2.The element is first laid out according to the normal flow, then shifted from its original position using the top, bottom, left, and right properties.
+3.Relative positioning does not remove the element from the normal flow of the document, so it still affects the layout of other elements around it.
+4.It is often used for making small adjustments to the positioning of elements without disrupting the overall layout.
